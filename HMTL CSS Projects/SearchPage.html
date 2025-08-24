@@ -1,0 +1,74 @@
+
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Search</title>
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css">
+</head>
+<body>
+     <div class="flex bg-yellow-600 ">
+      
+        
+     </div>
+</body>
+</html>
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Search Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white min-h-screen font-sans">
+
+  <!-- Navbar -->
+  <nav class="flex items-center justify-between px-6 py-3 bg-gray-800 shadow">
+    <div class="text-orange-400 text-lg font-bold">Brave</div>
+    
+    <div class="flex-1 mx-6">
+      <input
+        type="text"
+        placeholder="Search..."
+        class="w-full px-4 py-2 rounded-md bg-gray-700 text-white focus:outline-none"
+      />
+    </div>
+    
+    <div class="flex items-center space-x-4">
+      <span class="w-6 h-6 bg-yellow-500 rounded-full"></span>
+      <span class="w-6 h-6 bg-blue-400 rounded-full"></span>
+    </div>
+  </nav>
+
+  <!-- Filter Tabs -->
+  <div class="px-6 py-3 flex space-x-6 bg-gray-800 border-b border-gray-700">
+    <span class="text-blue-400 font-semibold cursor-pointer">All</span>
+    <span class="hover:text-blue-300 cursor-pointer">Images</span>
+    <span class="hover:text-blue-300 cursor-pointer">News</span>
+    <span class="hover:text-blue-300 cursor-pointer">Videos</span>
+    <span class="hover:text-blue-300 cursor-pointer">Books</span>
+  </div>
+
+  <!-- Results -->
+  <div class="px-6 py-6 space-y-6">
+    
+    <!-- Result Card -->
+    <div>
+      <a href="#" class="text-blue-400 hover:underline text-lg font-semibold">YouTube</a>
+      <p class="text-sm text-gray-400">youtube.com</p>
+      <p class="text-gray-300">Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.</p>
+    </div>
+
+    <!-- Another Result -->
+    <div>
+      <a href="#" class="text-blue-400 hover:underline text-lg font-semibold">YT Industries | Mountain Bikes</a>
+      <p class="text-sm text-gray-400">yt-industries.com</p>
+      <p class="text-gray-300">Our direct sales approach maximizes your budget, bringing your dream bike closer than ever.</p>
+    </div>
+
+  </div>
+
+</body>
+</html>
